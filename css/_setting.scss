@@ -1,0 +1,105 @@
+#setting {
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: #EAEAEC;
+    z-index: 1;
+    left: -250px;
+    top: 50%;
+    transform: translate(0,-50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.089);
+    padding: 20px !important;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all .4s ease;
+    
+    .setting-icon {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        padding: 15px;
+        background-color: #D0D0D2;
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.219);
+        i {
+            font-size:  30px;
+            animation-name : rotated;
+            animation-duration: 3s;
+            animation-delay: 0s ;
+            animation-iteration-count: infinite ;
+        }
+    }
+    .box {
+        border: 10px solid rgba(0, 0, 0, 0.11);
+        height: 100%;
+        .setting {
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.562);
+            h2 {
+                margin: 10 !important;
+            }
+        }
+        .font-size {
+            h3 {
+                font-size: 20px !important;
+                padding: 5px 0 0 0;
+            }
+            .font-content {
+                .font {
+                    cursor: pointer;
+                    transition: all .4s ease;
+                    p {
+                        margin: 0 !important;
+                    }
+                }
+                .font-1 {
+                    p {
+                        font-size: 15px;
+                    }
+                }
+                .font-2 {
+                    p {
+                        font-size: 17px;
+                    }
+                }
+                .font-3 {
+                    p {
+                        font-size: 19px;
+                    }
+                }
+                .font-4 {
+                    p {
+                        font-size: 21px;
+                    }
+                }
+                .font-5 {
+                    p {
+                        font-size: 23px;
+                    }
+                }
+            }
+        }
+        .language {
+            margin-bottom: 15px;
+            h3 {
+                font-size: 20px !important;
+                padding: 5px 0 0 0;
+            }
+            .language-content {
+                .lan {
+                    cursor: pointer;
+                    transition: all .4s ease;
+                    font-size: 19px;
+                    p {
+                        margin: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.font-active {
+    border: 1px solid #000;
+}
+.lan-active {
+    border: 1px solid #000;
+}

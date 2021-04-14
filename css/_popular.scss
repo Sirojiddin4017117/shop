@@ -1,0 +1,92 @@
+.slick-next {
+    position: absolute !important;
+    top: -80px;
+    right: 16px;
+    border: none;
+    padding: 4px 10px;
+    outline: none !important;
+    transition: all .4s ease;
+}
+.slick-next:hover {
+    color: #fff;
+    background-color: #0fb78d;
+}
+.slick-prev {
+    position: absolute !important;
+    top: -80px;
+    right: 100px;
+    border: none;
+    padding: 4px 10px;
+    outline: none !important;
+    transition: all .4s ease;
+}
+.slick-prev:hover {
+    color: #fff;
+    background-color: #0fb78d;
+}
+#popular {
+    padding: 70px 0;
+    .autoplay {
+        .card {
+            border: none;
+            outline: none !important;
+            .card-body {
+                position: relative;
+                .img {
+                    overflow: hidden;
+                    img {
+                        cursor: pointer;
+                        transition: all .5s ease;
+                        transform: scale(1,1);
+                    }
+                    img:hover {
+                        transform: scale(1.05,1.05);
+                    }
+                }
+                .product-top {
+                    position: absolute;
+                    top: 0;
+                    p {
+                        background-color: #0fb78d;
+                        font-size: 10px;
+                        color: #fff;
+                        padding: 5px 10px;
+                        font-weight: 600;
+                        letter-spacing: .2rem;
+                        z-index: 0;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+                }
+                .sale {
+                    p {
+                        background-color: #ffc107;
+                    }
+                }
+                .product-content {
+                    padding: 15px 0;
+                    h3 {
+                        color: #000;
+                        font-size: 15px;
+                        font-family: "Libre Baskerville",serif;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        cursor: pointer;
+                    }
+                    h5 {
+                        font-size: 13px;
+                        font-family: "Muli",sans-serif;
+                        line-height: 1.6;
+                        color: #333;
+                        font-weight: 400;
+                        cursor: pointer;
+                        span {
+                            text-decoration: line-through;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

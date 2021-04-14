@@ -1,0 +1,443 @@
+@media (max-width: 992px) {
+    header {
+        background-color: #fff;
+    }
+    .menu {
+        .navbar {
+            display: none;
+        }
+        .menu_icon ul li.nav-item-menu {
+            display: block ;
+        }
+
+    }
+    #responsive-menu {
+        display: block ;
+    }
+    #responsive-menu-bg {
+        display: block !important;
+    }
+    #slide {
+        #circle-1 {
+            left: 48%;
+        }
+        #circle-2 {
+            left: 52%;
+        }
+        .slide-bar {
+            .slide-info {
+                h1 {
+                    font-size: 45px ;
+                }
+            }
+        }
+    }
+    #product {
+        padding:  70px 0 !important;
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 9px;
+                    }
+
+                }
+            }
+        }
+    }
+    #deal {
+        .deal {
+            padding: 70px 0 !important;
+            .card {
+                .card-body {
+                    h5 {
+                        font-size: 15px ;
+                    }
+                    h2 {
+                        font-size: 30px ;
+                    }
+
+                }
+            }
+        } 
+    }
+    #popular {
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 9px ;
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+        padding: 50px 0 0!important;
+        .footer {
+            .footer-content {
+                margin-bottom: 25px  !important ;
+            }
+            .last {
+                h5 {
+                    text-align: center;
+                }
+                margin: 0 !important;
+            }
+        }
+        .Copyright {
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #slide {
+        .slide-bar {
+            .slide-info {
+                h1 {
+                    font-size: 40px !important;
+                }
+                a {
+                    padding: 12px 28px;
+                }
+            }
+        }
+    }
+    #product {
+        padding:  50px 0 !important;
+    }
+    #deal {
+        .deal {
+            padding: 50px 0 !important;
+            .card {
+                .card-body {
+                    padding: 20px 20px 30px 20px !important ;
+                    h5 {
+                        font-size: 14px !important;
+                    }
+                    h2 {
+                        font-size: 28px !important;
+                    }
+                    p {
+                        font-size: 15px !important;
+                        line-height: 1;
+                    }
+                    a {
+                        padding: 14px 28px ;
+                    
+                    }
+                }
+            }
+        }
+    }
+    #popular {
+        padding: 50px 0 !important;
+        .theme {
+            h2 {
+                font-size: 26px !important;
+            }
+        }
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 8px !important;
+                    }
+                }
+                .product-content {
+                    h3 {
+                        font-size: 13px !important;
+                    }
+                    h5 {
+                        font-size: 11px !important;
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev,.slick-next  {
+        font-size: 14px !important;
+    }
+    #footer {
+        padding: 40px 0 0!important;
+        .footer {
+            .footer-content {
+                label {
+                    button {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+        .Copyright {
+            font-size: 14px !important;
+        }
+    }
+    .menu_icon {
+        ul {
+            li {
+                a {
+                    i {
+                        font-size: 16px !important ;
+                    }
+                    padding: 8px 15px !important;
+                }
+            }
+            li{
+                a.search-circle {
+                    width: 35px !important;
+                    height: 35px !important;
+                    left: 5.5px !important;
+                    top: 2px !important;
+                }
+                .shopping-counter {
+                    padding: 0px 4px 4px !important;
+                }
+            }
+        }
+    }
+    #setting {
+        .font-size {
+            display: none;
+        }
+        .setting-icon {
+            padding: 10px;
+        }
+    }
+}
+@media (max-width: 576px) {
+    #slide {
+        .slide-bar {
+            .slide-info {
+                h1 {
+                    font-size: 35px !important;
+                }
+                a {
+                    padding: 12px 25px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    #product {
+        padding:  40px 0 !important;
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 8px !important;
+                    }
+                }
+            }
+        }
+    }
+    #deal {
+        .deal {
+            padding: 40px 0 !important;
+            .card {
+                .card-body {
+                    padding: 15px 15px 25px 15px !important ;
+                    h5 {
+                        font-size: 13px !important;
+                    }
+                    h2 {
+                        font-size: 26px !important;
+                    }
+                    p {
+                        font-size: 14px !important;
+                        line-height: 1;
+                    }
+                    a {
+                        padding: 13px 27px !important;
+                        font-size: 10px !important ;
+                    }
+                    
+                }
+            }
+        }
+    }
+    #popular {
+        padding: 40px 0 !important;
+        .theme {
+            h2 {
+                font-size: 24px !important;
+            }
+        }
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 8px !important;
+                    }
+                }
+                .product-content {
+                    h3 {
+                        font-size: 13px !important;
+                    }
+                    h5 {
+                        font-size: 11px !important;
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev,.slick-next  {
+        font-size: 13px !important;
+    }
+    #footer {
+        padding: 30px 0 0!important;
+        .footer {
+            .footer-content {
+                margin-bottom: 20px  !important ;
+                h5 {
+                    font-size: 18px !important;
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: 14px !important ;
+                        }
+                    }
+                }
+                label {
+                    input {
+                        padding: 8px 15px !important;
+                        font-size: 15px !important;
+                    }
+                    button {
+                        padding: 14px 30px 12px !important;
+                        font-size: 10px !important;
+                        right: 1px;
+                    }
+                }
+            }
+        }
+        .Copyright {
+            font-size: 14px !important;
+        }
+    }
+}
+@media (max-width: 500px) {
+    #deal {
+        .deal {
+            padding: 40px 0 !important;
+            .card {
+                .card-body {
+                    padding: 10px 10px 20px 10px !important ;
+                    h5 {
+                        font-size: 12px !important;
+                    }
+                    h2 {
+                        font-size: 24px !important;
+                    }
+                    p {
+                        font-size: 13px !important;
+                        line-height: 1;
+                    }
+                    a {
+                        padding: 12px 25px !important;
+                        font-size: 9px !important ;
+                    }
+                    
+                }
+            }
+        }
+    }
+    #popular {
+        padding: 50px 0 !important;
+        .theme {
+            h2 {
+                font-size: 25px !important;
+            }
+        }
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 7px !important;
+                    }
+                }
+                .product-content {
+                    h3 {
+                        font-size: 12px !important;
+                    }
+                    h5 {
+                        font-size: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev,.slick-next  {
+        font-size: 13px !important;
+    }
+    #footer {
+        padding: 30px 0 0!important;
+        .footer {
+            .footer-content {
+                margin-bottom: 20px  !important ;
+                h5 {
+                    font-size: 17px !important;
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: 13px !important ;
+                        }
+                    }
+                }
+                label {
+                    input {
+                        padding: 8px 15px !important;
+                        font-size: 15px !important;
+                    }
+                    button {
+                        padding: 14px 30px 12px !important;
+                        font-size: 10px !important;
+                        right: 1px;
+                    }
+                }
+            }
+        }
+        .Copyright {
+            font-size: 13px !important;
+        }
+    }
+}
+@media (max-width: 400px) {
+    #popular {
+        padding: 30px 0 !important;
+        .theme {
+            h2 {
+                font-size: 23px !important;
+            }
+        }
+        .card {
+            .card-body {
+                .product-top {
+                    p {
+                        font-size: 7px !important;
+                    }
+                }
+                .product-content {
+                    h3 {
+                        font-size: 11px !important;
+                    }
+                    h5 {
+                        font-size: 9px !important;
+                    }
+                }
+            }
+        }
+    }
+    .slick-prev,.slick-next  {
+        font-size: 12px !important;
+    }
+    #footer {
+        padding: 20px 0 0!important;
+        .Copyright {
+            font-size: 12px !important;
+        }
+    }
+}

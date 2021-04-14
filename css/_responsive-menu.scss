@@ -1,0 +1,72 @@
+$main-color: #000;
+$secondary-color: #0fb78d;
+$third-color: #b3b3b3;
+.responsive-menu {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: #DBE1DF;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+    transform: translateX(-110%);
+    transition: all .5s ease-in-out;
+    z-index: 4;
+    display: none;
+    ul {
+        list-style: none;
+        padding-top: 80px;
+        padding-left: 16px;
+        li {
+            padding-right: 15px;
+            a {
+                color: rgba(0, 0, 0, 0.5);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+                transition: all .3s ease;
+                position: relative;
+                text-transform: uppercase;
+                font-size: 14px;
+                padding-bottom: 15px ;
+            }
+            a.active {
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+            a:hover {
+                color: #000;
+            }
+            a::before {
+                position: absolute;
+                content: "";
+                height: 1px ;
+                background: #000;
+                bottom: -1px;
+                left: 0;
+                transition: all .5s ease;
+                width: 0;
+            }
+            a:hover:before {
+                width: 100%;
+            }
+        }
+    }
+    .x {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        font-size: 35px;
+        cursor: pointer;
+        padding: 5px 10px;
+        
+    }
+}
+#responsive-menu-bg {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.192);
+    transform: translateX(-110%);
+    transition: all .5s ease-in-out;
+    transition-delay: .2s;
+    z-index: 3;
+    display: none;
+}
